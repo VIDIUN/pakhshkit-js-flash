@@ -2,8 +2,8 @@
 
 [![Build Status](https://travis-ci.com/vidiun/pakhshkit-js-flash.svg?branch=master)](https://travis-ci.org/vidiun/pakhshkit-js-flash)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![](https://img.shields.io/npm/v/@playkit-js/playkit-js-flash/latest.svg)](https://www.npmjs.com/package/@playkit-js/playkit-js-fkash)
-[![](https://img.shields.io/npm/v/@playkit-js/playkit-js-flash/canary.svg)](https://www.npmjs.com/package/@playkit-js/playkit-js-flash/v/canary)
+[![](https://img.shields.io/npm/v/@pakhshkit-js/pakhshkit-js-flash/latest.svg)](https://www.npmjs.com/package/@pakhshkit-js/pakhshkit-js-flash)
+[![](https://img.shields.io/npm/v/@pakhshkit-js/pakhshkit-js-flash/canary.svg)](https://www.npmjs.com/package/@pakhshkit-js/pakhshkit-js-flash/v/canary)
 
 
 PakhshKit JS Flash adapter integrates [FLASH.HLS] with the [PakhshKit JS Player].
