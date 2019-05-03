@@ -1,11 +1,11 @@
-# PlayKit JS FLASH - [FLASH] Adapter for the [PlayKit JS Player]
+# PakhshKit JS FLASH - [FLASH] Adapter for the [PakhshKit JS Player]
 
-[![Build Status](https://travis-ci.com/kaltura/playkit-js-flash.svg?branch=master)](https://travis-ci.org/kaltura/playkit-js-flash)
+[![Build Status](https://travis-ci.com/vidiun/pakhshkit-js-flash.svg?branch=master)](https://travis-ci.org/vidiun/pakhshkit-js-flash)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-PlayKit JS Flash adapter integrates [FLASH.HLS] with the [PlayKit JS Player].
+PakhshKit JS Flash adapter integrates [FLASH.HLS] with the [PakhshKit JS Player].
 
-PlayKit JS Flash is written in [ECMAScript6], statically analysed using [Flow] and transpiled in ECMAScript5 using [Babel].
+PakhshKit JS Flash is written in [ECMAScript6], statically analysed using [Flow] and transpiled in ECMAScript5 using [Babel].
 
 [flash.hls]: https://github.com/mangui/flashls
 [flash.hls configuration]: https://github.com/mangui/flashls#configuration
@@ -17,11 +17,11 @@ PlayKit JS Flash is written in [ECMAScript6], statically analysed using [Flow] a
 
 ### Prerequisites
 
-The adapter requires [PlayKit JS Player] to be loaded first.
+The adapter requires [PakhshKit JS Player] to be loaded first.
 
 The adapter uses the [FLASH.HLS] swf library.
 
-[playkit js player]: https://github.com/kaltura/playkit-js
+[pakhshkit js player]: https://github.com/vidiun/pakhshkit-js
 
 ### Installing
 
@@ -30,8 +30,8 @@ First, clone and run [yarn] to install dependencies:
 [yarn]: https://yarnpkg.com/lang/en/
 
 ```
-git clone https://github.com/kaltura/playkit-js-flash.git
-cd playkit-js-flash
+git clone https://github.com/vidiun/pakhshkit-js-flash.git
+cd pakhshkit-js-flash
 yarn install
 ```
 
@@ -48,13 +48,13 @@ yarn run build
 Finally, add the bundle as a script tag in your page, and initialize the player
 
 ```html
-<script type="text/javascript" src="/PATH/TO/FILE/playkit.js"></script>
-<script type="text/javascript" src="/PATH/TO/FILE/playkit-js-flash.js"></script>
+<script type="text/javascript" src="/PATH/TO/FILE/pakhshkit.js"></script>
+<script type="text/javascript" src="/PATH/TO/FILE/pakhshkit-js-flash.js"></script>
 <div id="player-placeholder"" style="height:360px; width:640px">
 <script type="text/javascript">
 var playerContainer = document.querySelector("#player-placeholder");
 var config = {...};
-var player = playkit.core.loadPlayer(config);
+var player = pakhshkit.core.loadPlayer(config);
 playerContainer.appendChild(player.getView());
 player.play();
 </script>
@@ -62,7 +62,7 @@ player.play();
 
 ## Configuration
 
-[FLASH.HLS] configuration options, documented @[FLASH.HLS API docs], can be passed via the [PlayKit JS Player] config.
+[FLASH.HLS] configuration options, documented @[FLASH.HLS API docs], can be passed via the [PakhshKit JS Player] config.
 
 The configuration is exposed via the playback section:
 
@@ -117,7 +117,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/kaltura/playkit-js-flash/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/vidiun/pakhshkit-js-flash/tags).
 
 ## License
 

@@ -1,7 +1,7 @@
 {
-  "name": "@playkit-js/playkit-js-flash",
+  "name": "@pakhshkit-js/pakhshkit-js-flash",
   "version": "1.2.3",
-  "main": "dist/playkit-flash.js",
+  "main": "dist/pakhshkit-flash.js",
   "scripts": {
     "clean": "rm -rf ./dist",
     "prebuild": "npm run clean",
@@ -30,7 +30,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@playkit-js/playkit-js": "^0.41.0",
+    "@pakhshkit-js/pakhshkit-js": "^0.41.0",
     "babel-cli": "^6.18.0",
     "babel-core": "^6.18.2",
     "babel-eslint": "^7.1.1",
@@ -79,26 +79,26 @@
     "webpack-dev-server": "2.5.0"
   },
   "peerDependencies": {
-    "@playkit-js/playkit-js": "^0.41.0"
+    "@pakhshkit-js/pakhshkit-js": "^0.41.0"
   },
   "keywords": [
-    "kaltura",
+    "vidiun",
     "flash",
     "player",
-    "playkit-js",
-    "playkit-js-flash",
+    "pakhshkit-js",
+    "pakhshkit-js-flash",
     "html5 player"
   ],
   "license": "AGPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaltura/playkit-js-flash.git"
+    "url": "git+https://github.com/vidiun/pakhshkit-js-flash.git"
   },
   "bugs": {
-    "url": "https://github.com/kaltura/playkit-js-flash/issues"
+    "url": "https://github.com/vidiun/pakhshkit-js-flash/issues"
   },
-  "homepage": "https://github.com/kaltura/playkit-js-flash#readme",
-  "kcc": {
-    "name": "playkit-flash"
+  "homepage": "https://github.com/vidiun/pakhshkit-js-flash#readme",
+  "vcc": {
+    "name": "pakhshkit-flash"
   }
 }
