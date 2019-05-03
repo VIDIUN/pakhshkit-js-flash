@@ -1,5 +1,5 @@
 // @flow
-import {registerEngine} from '@playkit-js/playkit-js';
+import {registerEngine} from '@pakhshkit-js/pakhshkit-js';
 import {Flash} from './flash';
 
 declare var __VERSION__: string;

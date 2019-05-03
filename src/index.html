@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
-  <script src="https://cdnapisec.kaltura.com/p/2215841/embedPlaykitJs/uiconf_id/42237501/"></script>
-  <!-- <script src="http://kgit.html5video.org/pulls/3751/modules/ComscoreStreamingTag/resources/bin/streamsense.plugin.min.js"></script> -->
+  <script src="https://cdnapisec.vidiun.com/p/2215841/embedPakhshkitJs/uiconf_id/42237501/"></script>
+  <!-- <script src="http://vgit.html5video.org/pulls/3751/modules/ComscoreStreamingTag/resources/bin/streamsense.plugin.min.js"></script> -->
   <!--<script src="http://localhost/player.js"></script>-->
-  <script src="./playkit-js-flash.js"></script>
+  <script src="./pakhshkit-js-flash.js"></script>
 </head>
 
 <body>
@@ -26,10 +26,10 @@
     }
 
 
-    var kalturaPlayer = KalturaPlayer.setup(config);
-    kalturaPlayer.loadMedia({ entryId: "1_ebs5e9cy" });
+    var vidiunPlayer = VidiunPlayer.setup(config);
+    vidiunPlayer.loadMedia({ entryId: "1_ebs5e9cy" });
     function changeMedia(){
-      kalturaPlayer.loadMedia({entryId: '1_j09ivavh'});
+      vidiunPlayer.loadMedia({entryId: '1_j09ivavh'});
     }
   </script>
 </body>

@@ -1,5 +1,5 @@
 // @flow
-import {EventManager, EventType, FakeEvent, FakeEventTarget, getLogger, IEngine, Utils} from '@playkit-js/playkit-js';
+import {EventManager, EventType, FakeEvent, FakeEventTarget, getLogger, IEngine, Utils} from '@pakhshkit-js/pakhshkit-js';
 import {FlashHLSAdapter} from './flashhls-adapter';
 
 class Flash extends FakeEventTarget implements IEngine {
